@@ -1,45 +1,123 @@
 # ⚡ AI-Powered Smart Grid Monitoring System
-Forecasting electricity demand and detecting anomalies using SARIMA, LSTM, and LSTM Autoencoders.
 
-# AI-Powered Smart Grid Monitoring System
+An AI-based monitoring system that forecasts electricity demand and detects abnormal energy consumption patterns using machine learning and deep learning models.
 
-This project implements an AI-based monitoring system for electricity demand forecasting and anomaly detection using machine learning and deep learning techniques.
+---
 
-## Dataset
-PJM Hourly Energy Consumption Dataset
+## 📌 Project Overview
 
-## Project Components
+Modern power grids require accurate demand forecasting and rapid anomaly detection to maintain stability.
+This project builds an **AI-powered smart grid monitoring platform** that:
 
-1. Exploratory Data Analysis
-2. Time Series Diagnostics
-3. SARIMA Forecasting Model
-4. LSTM Forecasting Model
-5. Residual-Based Anomaly Detection
-6. LSTM Autoencoder Anomaly Detection
-7. Model Comparison (RMSE, MAE)
-8. Visualization of predictions and anomalies
+• Forecasts electricity demand
+• Detects abnormal consumption patterns
+• Visualizes results through an interactive dashboard
 
-## Models Used
+The system uses **time-series models and deep learning techniques** to analyze electricity usage patterns.
 
-- SARIMA (Statistical forecasting)
-- LSTM (Deep learning forecasting)
-- LSTM Autoencoder (Anomaly detection)
+---
 
-## Results
+## 🧠 Models Used
 
-LSTM significantly outperformed SARIMA in forecasting accuracy.
+### 1️⃣ SARIMA (Statistical Model)
 
-| Model | RMSE | MAE |
-|------|------|------|
+Used as a baseline forecasting model for electricity demand.
+
+### 2️⃣ LSTM Neural Network
+
+A deep learning model designed for sequential data that captures complex temporal patterns in energy demand.
+
+### 3️⃣ LSTM Autoencoder
+
+Used for anomaly detection by learning normal electricity consumption patterns and detecting deviations.
+
+---
+
+## 📊 Results
+
+| Model  | RMSE | MAE  |
+| ------ | ---- | ---- |
 | SARIMA | 5388 | 4092 |
-| LSTM | 2194 | 1682 |
+| LSTM   | 2194 | 1682 |
 
-## Technologies
+The LSTM model significantly improves forecasting accuracy compared to the statistical baseline.
 
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
-- TensorFlow / Keras
-- Matplotlib
-- Statsmodels
+---
+
+## ⚡ Key Features
+
+✔ Electricity demand monitoring
+✔ AI-based demand forecasting
+✔ Anomaly detection system
+✔ Interactive Streamlit dashboard
+✔ Smart grid alert system
+
+---
+
+## 🖥 Dashboard
+
+The system includes an interactive dashboard built with Streamlit that allows users to:
+
+• Monitor electricity demand trends
+• View AI demand forecasts
+• Detect abnormal consumption patterns
+• Analyze model performance
+
+---
+![Dashboard Preview](images/dashboard.png)
+
+## 🗂 Project Structure
+
+```
+ai-smart-grid-monitoring
+│
+├── dashboard.py
+├── smart-grid-ai.ipynb
+├── requirements.txt
+├── README.md
+├── data/
+└── models/   (ignored due to large size)
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```
+git clone https://github.com/Artemiz0307/ai-smart-grid-monitoring.git
+```
+
+Install dependencies:
+
+```
+pip install -r requirements.txt
+```
+
+Run the dashboard:
+
+```
+streamlit run dashboard.py
+```
+
+---
+
+## 📚 Dataset
+
+PJM Hourly Energy Consumption Dataset.
+
+---
+
+## 🚀 Future Improvements
+
+• Real-time smart grid monitoring
+• Weather-based demand forecasting
+• Deployment of the dashboard online
+• Advanced anomaly detection methods
+
+---
+
+## 👤 Author
+
+Artemiz0307
