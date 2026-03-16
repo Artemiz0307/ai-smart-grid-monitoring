@@ -118,6 +118,10 @@ PJM Hourly Energy Consumption Dataset.
 
 ---
 
-## 👤 Author
+## 👥 Contributors
 
-Artemiz0307
+* **Artemiz0307**
+* **Satwick**
+
+Machine Learning project focused on time series forecasting and anomaly detection in smart grid electricity consumption.
+
