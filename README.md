@@ -58,14 +58,31 @@ The LSTM model significantly improves forecasting accuracy compared to the stati
 
 The system includes an interactive dashboard built with Streamlit that allows users to:
 
-• Monitor electricity demand trends
-• View AI demand forecasts
-• Detect abnormal consumption patterns
-• Analyze model performance
+• Monitor electricity demand trends  
+• View AI demand forecasts  
+• Detect abnormal consumption patterns  
+• Analyze model performance  
 
----
+### 📸 Dashboard Preview
 ![Dashboard Preview](images/dashboard.png)
 
+---
+
+## 📊 Data Analysis & Insights
+
+### 🔹 Seasonal Electricity Consumption
+
+This chart shows the average electricity consumption across different seasons, highlighting peak demand periods.
+
+![Season Chart](images/season_chart.png)
+
+---
+
+### 📄 Report Preview
+
+A summarized report showing peak consumption months and seasonal patterns over multiple years.
+
+![Report Preview](images/report_preview.png)
 ## 🗂 Project Structure
 
 ```
